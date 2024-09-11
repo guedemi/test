@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Utilisateur {
         +int id
@@ -53,3 +54,4 @@ classDiagram
     Plateforme "1" -- "0..*" Abonnement : propose
     Watchlist "1" -- "1" Recommandation : génère
     Recommandation "1" -- "1" Abonnement : propose
+```
