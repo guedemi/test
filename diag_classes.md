@@ -30,13 +30,12 @@ classDiagram
         +annee_film : int
         +platformes : list<plateforme>
         +rechercher() : film
-        +plateformes : List<plateforme>
     }
 
     class Plateforme {
         +id_plateforme : int
         +nom_plateforme : string
-        +abonnements : List<abonnement>
+        +abonnements : list<abonnement>
         +afficherAbonnement() : abonnement
     }
 
