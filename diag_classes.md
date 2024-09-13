@@ -7,6 +7,7 @@ classDiagram
         +nom_utilisateur : string
         +email_utilisateur : string
         +localisation_utilisateur : string
+        +watchlists : list<watchlist>
         +creerCompte() : none
         +seConnecter() : none
         +supprimerCompte() : none
@@ -16,7 +17,7 @@ classDiagram
     class Watchlist {
         +id_watchlist : int
         +nom_watchlist : string
-        +films : List<film>
+        +films : list<film>
         +ajouterFilm() : none
         +supprimerFilm() : none
         +recommanderAbonnement() : abonnement
@@ -27,6 +28,7 @@ classDiagram
         +titre_film : string
         +genre_film : string
         +annee_film : int
+        +platformes : list<plateforme>
         +rechercher() : film
         +plateformes : List<plateforme>
     }
